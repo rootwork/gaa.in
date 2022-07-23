@@ -4,9 +4,17 @@ html {
   transition-timing-function: ease-in-out;
 }
 
-header nav {
-  background-color: rgba(0, 0, 0, 0.15);
+header .bg-lightest-blue {
   background: radial-gradient(circle, rgba(255,162,55,1) 12%, rgba(125,180,241,1) 89%);
+  text-align: center;
+}
+
+header .bg-lightest-blue nav {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+header nav a {
+  margin: 0.5rem;
 }
 
 select {
