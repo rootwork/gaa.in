@@ -57,6 +57,10 @@ article {
   min-width: 50%;
 }
 
+article.tc-l {
+  text-align: left;
+}
+
 article h1 {
   margin-top: 0;
   font-size: clamp(2rem, 3vw, 3.75rem) !important;
