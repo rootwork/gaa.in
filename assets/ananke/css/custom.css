@@ -8,6 +8,27 @@ header nav {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
+select {
+  min-width: 50%;
+  padding: 0.75rem 1rem 0.5rem 0.5rem;
+  border: 2px solid #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background: url('/images/double-down.svg');
+  background-repeat:no-repeat;
+  background-size: 5%;
+  background-position: 98% 50%;
+  background-color: var(--accent);
+  color: white;
+}
+
+option {
+  padding-left: 5%;
+}
+
 header.cover .bg-black-60 {
   background-color: transparent;
 }
