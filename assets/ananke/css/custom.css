@@ -6,6 +6,7 @@ html {
 
 header nav {
   background-color: rgba(0, 0, 0, 0.15);
+  background: radial-gradient(circle, rgba(255,162,55,1) 12%, rgba(125,180,241,1) 89%);
 }
 
 select {
@@ -29,16 +30,16 @@ option {
   padding-left: 5%;
 }
 
-header.cover .bg-black-60 {
+body header .bg-black-60 {
   background-color: transparent;
 }
 
-header.cover .bg-black-60 > div {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+header > div.pb6-l {
+  padding-bottom: 0;
+  background: radial-gradient(circle, rgba(255,162,55,1) 12%, rgba(125,180,241,1) 89%);
 }
 
-header.cover h1 {
+header h1.f2 {
   margin: 0;
   color: white;
   font-size: clamp(2.5rem, 4vw, 4rem);
@@ -46,15 +47,13 @@ header.cover h1 {
   text-shadow: 1px 1px 5px var(--accent_t);
 }
 
-header.cover h2,
+header h2.f5,
 .page-h2 {
   color: white;
   font-weight: bold;
   font-size: clamp(1.5rem, 3vw, 2rem);
   text-shadow: 1px 1px 3px var(--accent_t);
 }
-
-
 
 article {
   min-width: 50%;

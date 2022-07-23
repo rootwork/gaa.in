@@ -3,7 +3,7 @@ title: "Reproductive services nationwide"
 
 description: "Abortion services still exist, and help is available."
 cascade:
-  featured_image: '/images/abstract_unsplash-mymind.jpg'
+  featured_image: ''
 ---
 
 This website is meant to be a way for anyone who searches "How to get an abortion in ..." to get relevant information regardless of their local laws on what people "may" or "may not" tell them about abortion and reproductive services.
