@@ -5,12 +5,20 @@
     <article class="center cf pv5 ph3 ph4-ns mw7">
       <header>
         <h1 class="f1">
-          How to get an abortion in {{ .Title }}
+          {{ if eq .Title "Contact" }}
+            {{ .Title }}
+          {{ else }}
+            How to get an abortion in {{ .Title }}
+          {{ end }}
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
-        {{ .Content }}
-        {{- partial "common-content.html" . -}}
+        {{ if eq .Title "Contact" }}
+          {{ .Content }}
+        {{ else }}
+          {{ .Content }}
+          {{- partial "common-content.html" . -}}
+        {{ end }}
       </div>
     </article>
   </div>
