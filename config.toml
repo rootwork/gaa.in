@@ -9,6 +9,7 @@ SectionPagesMenu = "main"
 Paginate = 10 # also see "recent posts number" below
 googleAnalytics = ""
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 
 [languages]
   [languages.en]
